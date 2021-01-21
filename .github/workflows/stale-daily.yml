@@ -1,6 +1,8 @@
 name: Mark stale issues and pull requests daily
 
 on:
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   stale:
